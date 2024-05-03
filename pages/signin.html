@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign in</title>
+</head>
+<body>
+    <center><a href="index.html"><img src="images/fast shop3 .png" alt=""></a></center>
+    <br>
+    <div class="table-wrapper">
+    <form method="post" action="#">
+    <table class="tab">
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" name="name" id="name" placeholder="Votre Nom" required class="sign"></td>
+        </tr>
+        <tr>
+            <td><label for="prenom">Prenom</label></td>
+            <td><input type="text" name="prenom" id="prenom" placeholder="Votre Prenom"required class="sign"></td>
+        </tr>
+        <tr>
+            <td><label for="age">Age</label></td>
+            <td><input type="range" name="age" id="age" max="100" min="16"  step="1" onchange="showAge()"required ><span id="selectedAge">18</span></td>
+        </tr>
+        <tr>
+            <td><label for="tel">Num Tel</label></td>
+            <td><input type="tel" name="tel" id="tel"placeholder="Votre Tel" required class="sign"></td>
+        </tr>
+        <tr>
+            <td><label for="emaill">Email</label></td>
+            <td><input type="email" name="email" id="emaill" placeholder="Votre Email" required class="sign"></td>
+        </tr>
+        <tr>
+            <td><label for="mdp">Mot de passe</label></td>
+            <td><input type="password" name="mdp" id="mdp" placeholder="Votre Mot De Passe" required class="sign"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Envoyer" class="Recherche"></td>
+            <td><input type="reset" value="Annuler" class="reset"></td>
+        </tr>
+    </table></form></div>
+    <br><br>
+    <footer id="footer">
+        <a href="#" id="up"><i class="fa fa-circle-up"></i></a>
+        <p>&copy; 2024 My E-Commerce Store. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
